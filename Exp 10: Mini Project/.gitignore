@@ -1,0 +1,58 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# IDEs and Editors
+# =========================
+.idea/
+*.iml
+*.iws
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Backend (Spring Boot / Java)
+# =========================
+backend/target/
+backend/bin/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Ignore local uploaded files
+backend/uploads/
+
+# =========================
+# Frontend (React / Vite / Node)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env
+frontend/.env.*
+frontend/.eslintcache
+frontend/coverage/
+
+# npm and yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# General
+# =========================
+*.bak
+*.tmp
+*~
